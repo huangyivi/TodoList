@@ -1,6 +1,6 @@
 # TodoList
 
-基于`Vue@2.6.11`和Webpack@4.43.0
+基于`Vue@2.6.11`和`Webpack@4.43.0`
 
 # Introduction
 
@@ -10,7 +10,15 @@
 
 # Start
 
-### 一、开发者模式
+### 一、安装依赖包
+
+```bash
+cnpm install -D
+```
+
+
+
+### 二、开发者模式
 
 ```bash
 cnpm run dev
@@ -18,7 +26,7 @@ cnpm run dev
 
 启动开发者模式，自动弹出项目主页。
 
-### 二、产品模式
+### 三、产品模式
 
 ```bash
 cnpm run build
