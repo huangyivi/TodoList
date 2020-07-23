@@ -1,0 +1,34 @@
+cleanDefaultStyle()
+    appearance none
+    border none
+    outline none
+
+    
+
+btn(c,border = false)
+    padding: 0 10px
+    border-radius: 5px
+    cursor: pointer
+    clearDefaultStyle()
+
+    if(border == true){
+        border 1px solid c
+    }else{
+        background-color: c
+        color #fff
+    }
+    
+
+primaryBtn()
+    btn('#ffb6b9')
+
+    
+
+primaryBorderBtn()
+    btn('#ffb6b9',true)
+
+
+infoBtn()
+    btn('#bbded6')
+
+   

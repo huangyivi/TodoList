@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload = function(){
+            var click = document.getElementById('click');
+            click.onclick = function (event){
+                var target = event.target;
+                switch(target.id){
+                    case 'Hi':{
+                        alert('你好');
+                        break;
+                    }
+                    case 'fuck':{
+                        alert('fuck you ');
+                        break;
+                    }
+                    case 'no':{
+                        alert('nonono');
+                        break;
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <ul id="click">
+        <li id="Hi">你好</li>
+        <li id="fuck">CNM</li>
+        <li id="no">不不不！</li>
+    </ul>
+</body>
+</html>
